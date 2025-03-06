@@ -2,7 +2,5 @@ title: Sounds
 description: A collection of markdown articles
 markdown: kramdown
 
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-
 # Optional settings to ensure proper linking
 baseurl: "/sounds"
