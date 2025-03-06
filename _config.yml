@@ -2,7 +2,7 @@ title: Sounds
 description: A collection of markdown articles
 markdown: kramdown
 
-theme: jekyll/minima
+remote_theme: "jekyll/minima"
 minima:
   skin: solarized
 
