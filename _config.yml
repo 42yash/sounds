@@ -1,0 +1,6 @@
+title: Sounds
+description: A collection of markdown articles
+theme: jekyll-theme-minimal  # TODO: Change theme later
+
+# Optional settings to ensure proper linking
+baseurl: "/sounds"
