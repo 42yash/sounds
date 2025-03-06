@@ -2441,11 +2441,13 @@ Expressions can include:
 3. **Functions**:
 
 ```yaml
+{% raw %}
 ${{ contains('hello', 'll') }}        # true
 ${{ startsWith('hello', 'he') }}      # true
 ${{ endsWith('hello', 'lo') }}        # true
 ${{ format('Hello {0}!', 'World') }}  # 'Hello World!'
 ${{ join(['hello', 'world'], ' ') }}  # 'hello world'
+{% endraw %}
 ```
 
 
