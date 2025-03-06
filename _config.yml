@@ -2,9 +2,5 @@ title: Sounds
 description: A collection of markdown articles
 markdown: kramdown
 
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-- jekyll-remote-theme
-
 # Optional settings to ensure proper linking
 baseurl: "/sounds"
