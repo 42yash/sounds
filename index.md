@@ -1,9 +1,13 @@
-# My Sounds
+---
+layout: default
+title: Sounds 
+---
 
-Browse through my collection of sounds:
+# Sounds
 
 {% for page in site.pages %}
   {% if page.path contains 'markdown/' %}
-    * [{{ page.title | default: page.path }}]({{ page.url | relative_url }})
+    {% assign title = page.title | default: page.name | remove: '.md' | replace: '-', ' ' | capitalize %}
+    * [{{ title }}]({{ page.path | remove: '.md' | prepend: '/' | append: '.html' | relative_url }})
   {% endif %}
 {% endfor %}
