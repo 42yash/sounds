@@ -1,3 +1,8 @@
+---
+title: 'Github Actions: 100 Lessons'
+layout: default
+---
+
 # GitHub Actions: 0 to 100 in 100 Lessons
 
 ## Foundations (1-10)
