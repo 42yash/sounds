@@ -10425,6 +10425,7 @@ Distributed consensus is the process by which distributed systems agree on a sin
         - **Safety**: Log matching property ensures consistency
     - **Implementation Example** (etcd):
 
+{% raw %}
 ```go
 // Create a Raft node
 storage := raft.NewMemoryStorage()
@@ -10438,6 +10439,7 @@ c := &raft.Config{
 }
 n := raft.StartNode(c, []raft.Peer{{ID: 0x02}, {ID: 0x03}})
 ```
+{% endraw %}
 
 3. **Practical Byzantine Fault Tolerance (PBFT)**
     - **Byzantine Faults**: Nodes may behave arbitrarily, including maliciously
